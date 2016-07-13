@@ -1,12 +1,12 @@
 resources:
-  - name: gitreso
+  - name: gitresoin1
     type: gitRepo
     integration: shiphitchcock4-github
     source:
       name: shiphitchcock4/sample_node_new
       branch: master
 
-  - name: imagemulreso3
+  - name: gitresoin2
     type: image
     integration: ship4-docker
     source:
