@@ -1,11 +1,11 @@
 resources:
- # - name: new-image
-  #  type: image
-  #  integration: ship4-docker
-  #  source:
-  #    name: "shiphitchcock4/hitchcock4_sample_node"
-  #    isPull: false
-  #    tag: latest
+  - name: new-image
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+      tag: latest
 
  # - name: shipnew
   #  type: ecsCluster
@@ -14,11 +14,11 @@ resources:
   #    name : "default" #name of the cluster we are deploying
   #    region: "us-west-2"
       
-#  - name: new-image123
- #   type: image
-  #  integration: ship4-docker
-  #  source:
-  #    name: "shiphitchcock4/hitchcock4_sample_node"
-  #    isPull: false
-  #    tag: latest
+  - name: new-image123
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+      tag: latest
   
