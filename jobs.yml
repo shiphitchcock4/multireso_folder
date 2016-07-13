@@ -4,9 +4,3 @@ jobs:
     steps:
       - GET new-image
       - GET new-image123
-
-  - name : deployToEcstest1
-    type: ecsDeploy
-    steps:
-      - GET ecstest6
-      - PUT shipnew
