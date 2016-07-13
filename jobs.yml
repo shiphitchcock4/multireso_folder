@@ -1,7 +1,0 @@
-jobs:
-  #- name: ecstest6
-  #  type: manifest
-  #  steps:
-  #    - GET: new-image
-  #    - GET: new-image123
-  #    - GET: triggetestp
