@@ -1,5 +1,5 @@
 resources:
-  - name: image-mulreso1
+  - name: image-resoout1
     type: image
     integration: ship4-docker
     source:
@@ -14,7 +14,7 @@ resources:
   #    name : "default" #name of the cluster we are deploying
   #    region: "us-west-2"
       
-  - name: image-mulreso2
+  - name: image-out2
     type: image
     integration: ship4-docker
     source:
